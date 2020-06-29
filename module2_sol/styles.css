@@ -90,6 +90,7 @@ p{
 #sec1,#sec2,#sec3{
     background-color: purple;
     position: absolute;
+    font-size: 125%;
     width: 30%;
     right: 0;
     border: 1px solid black;
@@ -111,6 +112,7 @@ p{
 #sec1,#sec2,#sec3{
     background-color: purple;
     position: absolute;
+    font-size: 125%;
     width: 30%;
     right: 0;
     border: 1px solid black;
