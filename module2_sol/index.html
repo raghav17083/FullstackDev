@@ -3,137 +3,20 @@
     <head>
         <meta charset="utf-8">
         <title>Assignment module 2</title>
-        <style>
-            *{
-                box-sizing: border-box;
-                font-style: oblique;
-            }
-        @media (min-width: 992px){
-            .row div{
-                float: left;
-            }
-            p{
-                margin: 24px;
-            }
-            #column1{
-                width: 33%;
-                height: 150px;
-                background-color:  pink;
-                border: 2px solid black;
-                margin-right: 4px;
-                position: relative;
-        
-            }
-
-            #column2{
-                width: 33%;
-                height: 150px;
-                background-color:pink;
-                border: 2px solid black;
-                border-color: black;
-                /* margin: 2px; */
-                position: relative;
-                
-            }
-            #column3{
-                width: 33%;
-                height: 150px;
-                background-color: pink;
-                border: 2px solid black;
-                border-color: black;
-                margin-left: 4px;
-                position: relative;
-            }
-            #sec1,#sec2,#sec3{
-                background-color: purple;
-                position: absolute;
-                width: 30%;
-                right: 0;
-                border: solid;
-                text-align: center;
-            }
-        }
-        @media (min-width: 768px) and (max-width:991px){
-            
-            p{
-                margin: 24px;
-            }
-            #column1, #column2 {
-                width: 48%;
-                height:150px;
-                float: left;
-                background-color:  pink;
-                border: 2px solid black;
-                margin-right: 6px;
-                margin-left: 2px;
-                position: relative;
-        
-            }
-
-            /* #column2{
-                width: 48%;
-                float: left;
-                background-color:pink;
-                border: 2px solid black;
-                margin: 2px;
-            } */
-                
-            
-            #column3{
-                width: 98%;
-                height: 150px;
-                background-color: pink;
-                border: 2px solid black;
-                border-color: black;
-                margin-top: 15px;
-                margin-bottom: 15px;
-                margin-left: 4px;
-                position: relative;
-                top:1cm;
-                clear: both;
-            }
-            #sec1,#sec2,#sec3{
-                background-color: purple;
-                position: absolute;
-                width: 30%;
-                right: 0;
-                border: solid;
-                text-align: center;
-            }
-        }
-        @media (max-width:767px ){
-            #column1, #column2, #column3 {
-                background-color:  pink;
-                border: 2px solid black;
-                min-height: 100px;
-                margin: 20px;
-                position: relative;
-            }
-            #sec1,#sec2,#sec3{
-                background-color: purple;
-                position: absolute;
-                width: 30%;
-                right: 0;
-                border: solid;
-                text-align: center;
-            }
-
-        }           
-            
-        </style>
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
         
     </head>
     <body>
-        <h1 style="text-align: center; font-style: italic;">Module 2 test</h1>
+        <h1>Assignment Module 2</h1>
         <div class="row">
             <div id="column1">
-                <section id="sec1">Section 1</section> 
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.></p></div>
+                <section id="sec1">Chicken</section> 
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p></div>
             <div id="column2">
-                <section id="sec2">Section 2</section>
+                <section id="sec2">Beef</section>
                 <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></div>
             <div id="column3">
-                <section id="sec3">Section 3</section>
+                <section id="sec3">Sushi</section>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
         </div>
 
